@@ -1,0 +1,119 @@
+* { 
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+   
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+.bg {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+  
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0px 20px;    
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container h1 {     
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.container p {
+    color: hsl(220, 15%, 55%);
+    margin: 10px 0px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }   
+
+@media screen and (max-width: 375px) {
+    .bg {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+    }
+    
+    .container {
+        background-color: hsl(0, 0%, 100%);
+      
+        padding: 16px;
+        border-radius: 10px;
+        text-align: center;
+        max-width: 300px;
+        margin: 0px 20px;  
+        height: 55vh;  
+    }
+    
+    .container img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .container h1 {     
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    
+    .container p {
+        color: hsl(220, 15%, 55%);
+        margin: 10px 0px;
+    }
+    
+}
+@media screen  and (min-width: 1440px) {    
+    .bg {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+    }
+    
+    .container {
+        background-color: hsl(0, 0%, 100%);
+      
+        padding: 16px;
+        border-radius: 10px;
+        text-align: center;
+        max-width: 300px;    
+    }
+    
+    .container img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .container h1 {     
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    
+    .container p {
+        color: hsl(220, 15%, 55%);
+        margin: 10px 0px;
+    }   
+    
+}
